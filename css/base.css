@@ -110,3 +110,95 @@ html {
     color: #ffffff;
     text-transform: uppercase;
 }
+
+.trends {
+    padding-top: 12.22%;
+}
+
+.title-block {
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: #0f0d0e;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: normal;
+}
+
+.title-block::after {
+    content: "";
+    display: block;
+    width: 67px;
+    height: 4px;
+    margin-top: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e1d9bd;
+}
+
+.list-trends {
+    padding-top: 24px;
+}
+
+.trend {
+    position: relative;
+    width:calc(100% - 30px) ;
+    padding-top: 24.72%;
+    padding-bottom: 4.72%;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.trend::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.6;
+    z-index: -1;
+  }
+
+.garden-trend {
+    background-image: url("../images/garden-trend.jpg");
+}
+
+.trend-info {
+    padding-top: 10.18%;
+    padding-left: 6.17%;
+    padding-bottom: 9.26%;
+    border: 3px solid #76673c;
+}
+
+.trend-tags {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #b59f5b;
+    list-style-type: none;
+    text-transform: uppercase;
+    line-height: 37px;
+}
+
+.trend-tags li {
+    margin-left: 20px;
+}
+
+.trend-tags li:first-child {
+    margin-left: 0;
+}
+
+.trend-name {
+    margin-top: 16px;
+    font-size: 1.14rem;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 20px;
+    text-transform: uppercase;
+}

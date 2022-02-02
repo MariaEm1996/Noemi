@@ -142,6 +142,7 @@ html {
 .trend {
     position: relative;
     width:calc(100% - 30px) ;
+    margin-top: 1px;
     padding-top: 24.72%;
     padding-bottom: 4.72%;
     padding-left: 15px;
@@ -150,6 +151,10 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 0;
+}
+
+.trend:first-child {
+    margin-top: 0;
 }
 
 .trend::after {
@@ -166,6 +171,18 @@ html {
 
 .garden-trend {
     background-image: url("../images/garden-trend.jpg");
+}
+
+.cheese-trend {
+    background-image: url("../images/cheese-trend.jpg");
+}
+
+.camping-trend {
+    background-image: url("../images/camping-trend.jpg");
+}
+
+.lemon-trend {
+    background-image: url("../images/lemon-trend.jpg");
 }
 
 .trend-info {

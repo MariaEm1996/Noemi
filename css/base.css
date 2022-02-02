@@ -8,6 +8,11 @@ html {
     font-family: "Open Sans";
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .page-block {
     max-width: 610px;
     padding-left: 15px;
@@ -192,7 +197,7 @@ html {
     border: 3px solid #76673c;
 }
 
-.trend-tags {
+.tags {
     display: flex;
     flex-direction: row;
     font-size: 1rem;
@@ -200,14 +205,13 @@ html {
     color: #b59f5b;
     list-style-type: none;
     text-transform: uppercase;
-    line-height: 37px;
 }
 
-.trend-tags li {
+.tags li {
     margin-left: 20px;
 }
 
-.trend-tags li:first-child {
+.tags li:first-child {
     margin-left: 0;
 }
 
@@ -218,4 +222,58 @@ html {
     color: #ffffff;
     line-height: 20px;
     text-transform: uppercase;
+}
+
+.main {
+    padding-top: 11.67%;
+}
+
+.post {
+    margin-top: 10.3%;
+    padding-bottom: 28px;
+    border-bottom: 3px solid #eeeeee;
+}
+
+.post:first-child {
+    margin-top: 0;
+}
+
+.post-img {
+    width: 100%;
+}
+
+.post-tags {
+    margin-top: 16px;
+}
+
+.post-title {
+    margin-top: 15px;
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: #0f0d0e;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.post-info {
+    display: flex;
+    margin-top: 25px;
+    font-size: 0.86rem;
+}
+
+.post-time {
+    color: #888888;
+}
+
+.post-autor {
+    margin-left: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.post-preview {
+    margin-top: 20px;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #0f0d0e;
 }

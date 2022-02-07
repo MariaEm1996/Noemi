@@ -1,0 +1,63 @@
+@media (min-width: 641px) and (max-width: 1200px) {
+    html {
+        font-size: 15px;
+    }
+
+    .page-block {
+        max-width: 1130px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .header {
+        padding-top: 6.16%;
+        padding-bottom: 17.91%;
+        background-image: url("../images/banner-bg-tablet.jpg");
+    }
+
+    .menu-button-wrapper {
+        position: absolute;
+        right: 35px;
+    }
+
+    .site-info {
+        margin-top: 0;
+        align-items: flex-start;
+    }
+
+    .logo {
+        width: 22.63%;
+    }
+
+    .title {
+        font-size: 2.67rem;
+        line-height: 55px;
+    }
+    .trends {
+        padding-top: 7.16%;
+    }
+
+    .title-block {
+        font-size: 1.2rem;
+    }
+
+    .list-trends {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 2.44%;
+    }
+
+    .trend {
+        width:calc(50% - 1.5px);
+        box-sizing: border-box;
+        margin-top: 3px;
+    }
+
+    .trend:nth-child(2n+2) {
+        margin-left: 3px;
+    }
+    .trend:first-child {
+        margin-top: 3px;
+    }
+}

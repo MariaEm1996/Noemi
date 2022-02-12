@@ -60,4 +60,172 @@
     .trend:first-child {
         margin-top: 3px;
     }
+
+    @media (orientation: landscape) {
+        .trend {
+            width:calc(25% - 3px);
+        }
+    
+        .trend:nth-child(2n+1) {
+            margin-left: 3px;
+        }
+        .trend:first-child {
+            margin-top: 3px;
+        }
+    }
+
+    .tags {
+        font-size: 0.93rem;
+    }
+
+    .trend-info {
+        padding-top: 10.39%;
+        padding-bottom: 10.09%;
+        padding-left: 8.9%;
+    }
+
+    .trend-name {
+        font-size: 1.13rem;
+    }
+
+    .two-columns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        padding-top: 6.51%;
+    }
+
+    .main, .aside-new-post {
+        padding-top: 0;
+        box-sizing: border-box;
+    }
+
+    .main {
+        width: 55.6%;
+        padding-right: 0;
+    }
+
+    .aside-new-post {
+        width: 39.97%;
+        padding-left: 0;
+    }
+
+    .post {
+        padding-bottom: 23px;
+        margin-top: 10.71%;
+    }
+
+    .post:last-child {
+        border-bottom: none;
+    }
+
+    .post-title {
+        font-size: 1.13rem;
+    }
+
+    .post-info {
+        margin-top: 39px;
+        font-size: 0.8rem;
+    }
+
+    .post-preview {
+        margin-top: 40px;
+    }
+
+    .new-post-img {
+        display: flex;
+        align-items: center;
+    }
+
+    .new-post-info {
+        margin-left: 20px;
+    }
+
+    .new-post-time {
+        font-size: 0.8rem;
+    }
+
+    .new-post-title {
+        font-size: 0.93rem;
+    }
+
+    .search-form, .notify, .theme-tags, .themes {
+        margin-top: 22.06%;
+    }
+
+    .theme-tag-list {
+        margin-top: 24px;
+        justify-content: stretch;
+    }
+
+    .theme-tag {
+        font-size: 0.8rem;
+        margin-left: 5px;
+    }
+
+    .theme {
+        font-size: 0.93rem;
+    }
+
+    .theme-count {
+        font-size: 0.6rem;
+    }
+
+    .aside-goods {
+        padding-top: 6.38%;
+    }
+
+    .product-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .product {
+        width: 48.28%;
+        margin-top: 255px;
+    }
+
+    .product:first-of-type {
+        margin-top: 255px;
+    }
+
+    .product-preview {
+        top: -195px;
+    }
+
+    .product-info {
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .product-title {
+        font-size: 1.13rem;
+    }
+
+    .product-text {
+        font-size: 1rem;
+    }
+
+    .product-price {
+        font-size: 0.93rem;
+    }
+
+    .product-sale {
+        font-size: 1.33rem;
+    }
+
+    .product-click {
+        font-size: 0.93rem;
+    }
+
+    .footer  {
+        margin-top: 6.51%;
+    }
+
+    .copyright {
+        font-size: 0.8rem;
+    }
 }

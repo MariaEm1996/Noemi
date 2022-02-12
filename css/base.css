@@ -327,6 +327,11 @@ input[type="text"], input[type="search"], input[type="email"] {
     width: 70px;
 }
 
+.new-post-img img {
+    width: 70px;
+    height: 70px;
+}
+
 .new-post-info {
     margin-left: 7.69%;
 }

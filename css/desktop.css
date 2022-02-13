@@ -27,7 +27,6 @@
     .site-info {
         box-sizing: border-box;
         width: 100%;
-        margin-top: 0;
         align-items: center;
     }
 
@@ -92,24 +91,11 @@
         box-sizing: border-box;
         display: flex;
         align-items: flex-end;
-        padding-top: 9.46%;
-        padding-left: 22px;
-        padding-right: 22px;
-        padding-bottom: 0.96%;
-    }
-    .trend:first-child {
-        margin-top: 1px;
-    }
-
-    .tags {
-        font-size: 0.93rem;
+        padding: 9.46% 22px 0.96% 22px;
     }
 
     .trend-info {
-        padding-top: 9.49%;
-        padding-left: 7.79%;
-        padding-right: 10.95%;
-        padding-bottom: 9%;
+        padding: 9.49% 10.95% 9% 7.79%;
     }
 
     .trend-name {

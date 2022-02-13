@@ -165,10 +165,7 @@ input[type="text"], input[type="search"], input[type="email"] {
     position: relative;
     width:calc(100% - 30px);
     margin-top: 1px;
-    padding-top: 24.72%;
-    padding-bottom: 4.72%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 24.72% 15px 4.72% 15px;
     background-color: #000;
     background-repeat: no-repeat;
     background-size: cover;
@@ -609,6 +606,10 @@ input[type="text"], input[type="search"], input[type="email"] {
         font-size: 15px;
     }
 
+    .site-info {
+        margin-top: 0;
+    }
+
     .two-columns {
         display: flex;
         flex-direction: row;
@@ -620,6 +621,14 @@ input[type="text"], input[type="search"], input[type="email"] {
     .main, .aside-new-post {
         padding-top: 0;
         box-sizing: border-box;
+    }
+
+    .trend, .trend:first-child {
+        margin-top: 0;
+    }
+
+    .tags {
+        font-size: 0.93rem;
     }
 
     .new-post-img {

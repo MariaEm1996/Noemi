@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="./css/base.css">
         <link rel="stylesheet" href="./css/tablet.css">
         <link rel="stylesheet" href="./css/desktop.css"> 
+        <link rel="stylesheet" href="./css/popup.css">
     </head>
     <body>
         <header class="header page-block">
@@ -401,5 +402,39 @@
                 Copyright © 2009–2019 City Blog LLC.
               </a>
         </footer>
+        <div class="modal-mask modal-mask__hidden"></div>
+        <div class="modal-wrapper modal-wrapper__hidden">
+            <div class="controls-bar">
+                <button class="close-button" type="button"></button>
+            </div>
+            <div class="modal-content">
+                <h3 class="title-block page-block">Ваш фидбек</h3>
+                <form class="feedback-form" action="/feedback" action="post">
+                    <label class="feedback-label" for="visit">Как часто вы заходите на сайт?</label>
+                    <select class="select" id="visit" name="visit" required>
+                        <option value="1">Почти каждый день</option>
+                        <option value="2">Раз в неделю</option>
+                        <option value="3">Несколько раз в месяц</option>
+                    </select>
+                    <span class="feedback-label">Вы подписаны на e-mail рассылку?</span>
+                    <div class="choice">
+                        <label class="feedback-choice" for="email-notify-1">
+                            <input type="radio" name="email-notify" id="email-notify-1" value="1" required>
+                            <div class="radio-marker"></div>
+                            <span class="label-text">Да</span>
+                        </label>
+                        <label class="feedback-choice" for="email-notify-0">
+                            <input type="radio" name="email-notify" id="email-notify-0" value="0" required>
+                            <div class="radio-marker"></div>
+                            <span class="label-text">Нет</span>
+                        </label>
+                    </div>
+                    <label class="feedback-label" for="about-content">Расскажите, какой контент вы хотели бы 
+                        видеть на нашем сайте?</label>
+                    <textarea class="about-content" name="about-content" id="about-content" rows="6" placeholder="Может, больше рецептов?"></textarea>
+                    <button class="email-btn feedback-btn" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
     </body>
 </html>

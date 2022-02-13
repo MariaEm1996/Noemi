@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./css/fonts.css">
         <link rel="stylesheet" href="./css/base.css">
         <link rel="stylesheet" href="./css/tablet.css">
+        <link rel="stylesheet" href="./css/desktop.css"> 
     </head>
     <body>
         <header class="header page-block">
@@ -15,11 +16,35 @@
                     <span class="menu-button-label">открыть меню</span>
                 </button>
             </div>
-            <div class="site-info">
-                <a class="logo" href="#0">
-                    <div class="visually-hidden">Логотип блога</div>
-                    <img src="./images/noemi-logo.svg" alt="логотип">
-                </a>
+            <div class="site-info center-limited-block">
+                <div class="header-menu">
+                    <a class="logo" href="#0">
+                        <div class="visually-hidden">Логотип блога</div>
+                        <img src="./images/noemi-logo.svg" alt="логотип">
+                    </a>
+                    <nav>
+                        <ul class="menu">
+                        <li class="menu-item">
+                            <a href="#0">Главная</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#0">посты</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#0">статьи</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#0">теги</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#0">темы</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#0">контакты</a>
+                        </li>
+                        </ul>
+                    </nav>
+                </div>
                 <h1 class="title">Блог о творчестве, спорте, и образе жизни</h1>
             </div>
         </header>
@@ -32,7 +57,7 @@
                             <li><a href="#0">Lifestyle</a></li>
                             <li><a href="#0">INTERIOR</a></li>
                         </ul>
-                        <h4 class="trend-name">Сейчас в тренде: сад на подоконнике</h4>
+                        <h4 class="trend-name"><a href="#0">Сейчас в тренде: сад на подоконнике</a></h4>
                     </div>
                 </article>
                 <article class="trend cheese-trend">
@@ -40,7 +65,7 @@
                         <ul class="tags">
                             <li><a href="#0">food</a></li>
                         </ul>
-                        <h4 class="trend-name">сыры на красивых картинках из интернета: какие они на вкус?</h4>
+                        <h4 class="trend-name"><a href="#0">сыры на красивых картинках из интернета: какие они на вкус?</a></h4>
                     </div>
                 </article>
                 <article class="trend camping-trend">
@@ -49,7 +74,7 @@
                             <li><a href="#0">Lifestyle</a></li>
                             <li><a href="#0">travel</a></li>
                         </ul>
-                        <h4 class="trend-name">СОБИРАЕМСЯ В ПЕРВЫЙ ПОХОД В ГОРЫ?</h4>
+                        <h4 class="trend-name"><a href="#0">СОБИРАЕМСЯ В ПЕРВЫЙ ПОХОД В ГОРЫ?</a></h4>
                     </div>
                 </article>
                 <article class="trend lemon-trend">
@@ -58,18 +83,18 @@
                             <li><a href="#0">food</a></li>
                             <li><a href="#0">health</a></li>
                         </ul>
-                        <h4 class="trend-name">Сейчас в тренде: сКОЛЬКО ВИТАМИНА c В ЛИМОНАХ?</h4>
+                        <h4 class="trend-name"><a href="#0">Сейчас в тренде: сКОЛЬКО ВИТАМИНА c В ЛИМОНАХ?</a></h4>
                     </div>
                 </article>
             </section>
         </aside>
-        <div class="two-columns">
+        <div class="two-columns center-limited-block">
             <main class="page-block main">
                 <article class="post">
                     <figure>
                         <img class="post-img" src="./images/last-post1.jpg" alt="10 мест, ради которых стоит проснуться на рассвете">
                     </figure>
-                    <div>
+                    <div class="post-desc">
                         <ul class="tags post-tags">
                             <li><a href="#0">Travel</a></li>
                             <li><a href="#0">Health</a></li>
@@ -86,12 +111,12 @@
                     <figure>
                         <img class="post-img" src="./images/last-post2.jpg" alt="ЙОга для начинающих в домашних условиях">
                     </figure>
-                    <div>
+                    <div class="post-desc">
                         <ul class="tags post-tags">
                             <li><a href="#0">health</a></li>
                             <li><a href="#0">lifestyle</a></li>
                         </ul>
-                        <h2 class="post-title"><a href="#0">ЙОга для начинающих в домашних условиях</a></h2>
+                        <h2 class="post-title"><a href="#0">Йога для начинающих в домашних условиях</a></h2>
                         <footer class="post-info">
                             <time class="post-time">10 июня 2019</time>
                             <p class="post-autor">Неизвестный автор</p>
@@ -103,7 +128,7 @@
                     <figure>
                         <img class="post-img" src="./images/last-post3.jpg" alt="Лучшие музыкальные фестивали этого лета">
                     </figure>
-                    <div>
+                    <div class="post-desc">
                         <ul class="tags post-tags">
                             <li><a href="#0">music</a></li>
                         </ul>
@@ -119,7 +144,7 @@
                     <figure>
                         <img class="post-img" src="./images/last-post4.jpg" alt="Наукоёмкий подход к кулинарии">
                     </figure>
-                    <div>
+                    <div class="post-desc">
                         <ul class="tags post-tags">
                             <li><a href="#0">LYFESTYLE</a></li>
                             <li><a href="#0">food</a></li>
@@ -136,7 +161,7 @@
                     <figure>
                         <img class="post-img" src="./images/last-post5.jpg" alt="делаем модные принты на  подушках для интерьера ">
                     </figure>
-                    <div>
+                    <div class="post-desc">
                         <ul class="tags post-tags">
                             <li><a href="#0">Lifestyle</a></li>
                             <li><a href="#0">INTERIOR</a></li>
@@ -257,7 +282,7 @@
                 </section>
             </aside>
         </div> 
-        <aside class="page-block aside-goods">
+        <aside class="page-block aside-goods center-limited-block">
             <h3 class="title-block">Наши изделия</h3>
             <div class="product-list">
                 <div class="product">
@@ -269,6 +294,9 @@
                             <source
                                 media="(min-width: 641px) and (max-width: 1200px)"
                                 srcset="./images/shop-item-tablet1.jpg">
+                            <source
+                                media="(min-width: 1201px)"
+                                srcset="./images/shop-item-desk1.jpg">
                             <img src="./images/shop-item-desk1.jpg" alt="Подушки на диван">
                         </picture>
                     </figure>
@@ -293,6 +321,9 @@
                             <source
                                 media="(min-width: 641px) and (max-width: 1200px)"
                                 srcset="./images/shop-item-tablet2.jpg">
+                            <source
+                                media="(min-width: 1201px)"
+                                srcset="./images/shop-item-desk2.jpg">
                             <img src="./images/shop-item-desk2.jpg" alt="Кукла «Зайчик»">
                         </picture>
                     </figure>
@@ -316,6 +347,9 @@
                             <source
                                 media="(min-width: 641px) and (max-width: 1200px)"
                                 srcset="./images/shop-item-tablet3.jpg">
+                            <source
+                                media="(min-width: 1201px)"
+                                srcset="./images/shop-item-desk3.jpg">
                             <img src="./images/shop-item-desk3.jpg" alt="Шестиугольная рамка»">
                         </picture>
                     </figure>

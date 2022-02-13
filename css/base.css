@@ -20,10 +20,12 @@ input[type="text"], input[type="search"], input[type="email"] {
     outline: none;
 }
 
-.page-block {
-    max-width: 610px;
-    padding-left: 15px;
-    padding-right: 15px;
+@media (max-width: 640px) {
+    .page-block {
+        max-width: 610px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }   
 }
 
 .visually-hidden {
@@ -103,15 +105,23 @@ input[type="text"], input[type="search"], input[type="email"] {
 }
 
 .site-info {
+    margin-top: 52.12%;
+}
+
+.header-menu {
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 52.12%;
 }
 
 .logo {
     display: block;
     width: 81.5%;
+}
+
+.menu {
+    display: none;
 }
 
 .title {
@@ -181,7 +191,7 @@ input[type="text"], input[type="search"], input[type="email"] {
     z-index: -1;
 }
 
-@media (orientation: landscape) {
+@media (max-width: 640px) and (orientation: landscape) {
     .list-trends {
         display: flex;
         flex-direction: row;
@@ -591,4 +601,42 @@ input[type="text"], input[type="search"], input[type="email"] {
     font-weight: bold;
     color: #999999;
     text-decoration: none;
+  }
+
+  @media (min-width: 641px) {
+
+    html {
+        font-size: 15px;
+    }
+
+    .two-columns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        padding-top: 6.51%;
+    }
+
+    .main, .aside-new-post {
+        padding-top: 0;
+        box-sizing: border-box;
+    }
+
+    .new-post-img {
+        display: flex;
+        align-items: center;
+    }
+
+    .theme-tag-list {
+        justify-content: stretch;
+    }
+
+    .theme-tag {
+        margin-left: 5px;
+    }
+
+    .product-info {
+        height: 100%;
+        box-sizing: border-box;
+    }
   }

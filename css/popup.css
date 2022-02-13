@@ -1,6 +1,6 @@
 .modal-mask__hidden, .modal-wrapper__hidden {
-    display: none;
-}
+    display: none !important;
+}; 
 
 .modal-mask {
     position: fixed;

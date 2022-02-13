@@ -1,9 +1,6 @@
-.modal-mask__hidden, .modal-wrapper__hidden {
-    display: none !important;
-}; 
-
-.modal-mask {
+.mask {
     position: fixed;
+    display: block;
     top: 0;
     left: 0;
     right: 0;
@@ -90,6 +87,7 @@
 .feedback-choice input:checked + .radio-marker {
     background-image: url('../images/form-circle.svg');
 }
+
 .radio-marker {
     width: 26px;
     height: 26px;
@@ -143,25 +141,30 @@
     margin-top: 27px;
 }
 
-@media (min-width: 641px) {
+.popup__hidden {
+    display: none !important;
+}
+
+@media (min-width: 641px) and (max-width: 1200px) {
     .controls-bar {
         width: 390px;
     }
 
     .modal-content {
         width: 390px;
+        padding: 50px 30px 55px 30px;
         font-size: 0.86rem;
     }
 }
 
-@media (min-width: 641px) and (max-width: 1200px) {
-    .modal-content {
-        padding: 50px 30px 55px 30px;
-    }
-}
-
 @media (min-width: 1201px) {
+    .controls-bar {
+        width: 390px;
+    }
+
     .modal-content {
+        width: 390px;
         padding: 55px 30px 55px 30px;
+        font-size: 0.86rem;
     }
 }

@@ -86,6 +86,10 @@
         font-size: 1.33rem;
     }
 
+    .sub-title {
+        font-size: 0.93rem;
+    }
+
     .trend {
         width: 24.7%;;
         box-sizing: border-box;
@@ -224,24 +228,18 @@
     .product-list {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         padding-top: 2.33%;
     }
 
     .product {
         width: calc(100% / 3 - 66px);
-        margin-top: 173px;
-    }
-
-    .product:nth-child(n+2) {
-        margin-left: 66px;
-    }
-
-    .product-preview {
-        top: -173px;
+        padding-top: 173px;
+        margin-top: 0;
     }
 
     .product:first-of-type {
-        margin-top: 173px;
+        margin-top: 0;
     }
 
     .product-title {

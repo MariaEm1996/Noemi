@@ -459,24 +459,31 @@ input[type="text"], input[type="search"], input[type="email"] {
 
   .product {
     position: relative;
-    margin-top: 283px;
+    margin-top: 7.22%;
+    padding-top: 76.56%;
   }
 
   .product:first-of-type {
-    margin-top: 280px;
+    margin-top: 28px;
   }
 
   .product-preview {
     position: absolute;
-    top: -254px;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 87%;
+    top: 0;
+    left: 6.56%;
     z-index: 0;
+  }
+
+  .product-preview img {
+    width: 100%;
   }
 
   .product-info {
     position: relative;
-    padding: 54px 22px 26px 18px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16.36% 6.11% 7.22% 5%;
     border: 3px solid #d3c59d;
     z-index: 1;
   }

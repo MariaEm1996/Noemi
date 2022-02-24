@@ -12,6 +12,10 @@
         background-image: url("../images/banner-bg-tablet.jpg");
     }
 
+    .header-menu {
+        align-items: flex-start;
+    }
+
     .menu-button-wrapper {
         position: absolute;
         right: 35px;
@@ -75,12 +79,11 @@
     }
 
     .main {
-        width: 55.6%;
-        padding-right: 0;
+        width: calc(100% - 270px);
     }
 
     .aside-new-post {
-        width: 39.97%;
+        width: 270px;
         padding-left: 0;
     }
 
@@ -151,15 +154,12 @@
 
     .product {
         width: 48.28%;
-        margin-top: 255px;
+        margin-top: 3.65%;
+        padding-top: 27.26%;
     }
 
     .product:first-of-type {
-        margin-top: 255px;
-    }
-
-    .product-preview {
-        top: -195px;
+        margin-top: 3.65%;
     }
 
     .product-title {

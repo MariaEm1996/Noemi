@@ -145,6 +145,20 @@
     display: none !important;
 }
 
+@media (max-width: 640px) {
+    .modal-wrapper {
+        min-height: 100vh;
+    }
+
+    .controls-bar {
+        padding-right: 10px;
+    }
+
+    .modal-content {
+        overflow-y: scroll;
+    }
+}
+
 @media (min-width: 641px) and (max-width: 1200px) {
     .controls-bar {
         width: 390px;

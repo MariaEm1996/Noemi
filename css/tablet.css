@@ -42,6 +42,10 @@
         font-size: 1.2rem;
     }
 
+    .sub-title {
+        font-size: 0.93rem;
+    }
+
     .list-trends {
         display: flex;
         flex-direction: row;
